@@ -14,6 +14,7 @@ import { RecuperarPasswordComponent } from './components/recuperar-password/recu
 import { SpinnerComponent } from './shared/spinner/spinner.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { environment } from 'src/environments/environment';
+import { ProductsComponent } from './components/products/products/products.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { environment } from 'src/environments/environment';
     RegistrarUsuarioComponent,
     VerificarCorreoComponent,
     RecuperarPasswordComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
